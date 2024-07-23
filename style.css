@@ -1,0 +1,36 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+}  
+
+.container {  
+    max-width: 900px;  
+    margin: auto;  
+}  
+
+h1 {  
+    text-align: center;  
+    color: #333;  
+}  
+
+input[type="text"], input[type="file"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+
+.gallery {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
+    gap: 10px;  
+}  
+
+.gallery img {  
+    width: 100%;  
+    border-radius: 4px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}
